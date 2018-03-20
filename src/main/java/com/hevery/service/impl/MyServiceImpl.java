@@ -11,6 +11,7 @@ import com.hevery.service.MyService;
 @Service("myServiceImpl")
 public class MyServiceImpl implements MyService {
     public String getUser(String name) {
+        System.out.println("success");
         return "hello";
     }
 }
